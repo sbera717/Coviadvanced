@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <title>Coviadvanced</title>
+    <style>
+      * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .navbar-text p{
+        font-size: x-large;
+        font-weight: 600;
+      }
+
+      .navbar-text p:hover{
+        color: white;
+        cursor: pointer;
+      }
+
+      .Navbar {
+        height: 4rem;
+        width: 100%;
+        font-size: 1.5rem;
+        box-shadow: rgb(60 64 67 / 30%) 0px 1px 20px 15px,
+          rgb(60 64 67 / 15%) 0px 1px 3px 1px;
+        background-color: #232931;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .navbar-text {
+        height: 100%;
+      }
+
+      footer {
+        width: 90vw;
+        height: 3.68rem;
+      }
+
+      .foot {
+        text-align: center;
+        width: 109%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+          rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        background-color: #232931;
+        color: white;
+      }
+
+      span {
+        margin: 0px 0.5rem;
+        color: red;
+      }
+
+      .buttononimage {
+        position: relative;
+        width: 100%;
+      }
+
+      .buttononimage .btt {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex flex-row justify-content-around">
+      <div class="navbar-text">
+        <p>COVIADVANCED</p>
+      </div>
+      <a class="navbar-brand" href="/test">Start Test</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+    <div class="grid grid-rows-3 gap-1 px-8 m-2">
+      <div class="row-span-1">
+        <div class="grid grid-cols-12 gap-5 p-2">
+          <div
+            class="col-span-5 flex rounded flex-col items-center p-4 buttononimage"
+            style="box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px"
+          >
+            <img
+              src="/static/geetstarted.jpg"
+              class="rounded"
+              style="width: 35rem; height: 25rem"
+              alt=""
+            />
+
+            <!-- LINK TO BE ADDED HERE -->
+            <a
+              target="_blank"
+              class="rounded-full w-9/12 py-2 my-4 bg-gradient-to-r from-green-400 to-blue-400 btt"
+              style="width:50%;"
+              href="https://www.cowin.gov.in"
+              >Get Vaccinated</a
+            >
+          </div>
+          <div
+            class="col-span-7 p-4 rounded"
+            style="box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px"
+          >
+            <div class="flex">
+              <div
+                class="p-2 flex items-center flex-col justify-center"
+                style="width: 95rem"
+              >
+                <h3 class="text-2xl font-bold">What is COVID?</h3>
+                <div class="my-10">
+                  An acute disease in humans caused by a coronavirus, which is
+                  characterized mainly by fever and cough and is capable of
+                  progressing to severe symptoms and in some cases death,
+                  especially in older people and those with underlying health
+                  conditions. It was originally identified in China in 2019 and
+                  became pandemic in 2020.
+                </div>
+                <a
+                  target="_blank"
+                  class="rounded text-center w-9/12 py-2 my-4 bg-gradient-to-r from-green-400 to-blue-400"
+                  href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19"
+                  style="color: white;"
+                  >Know more</a
+                >
+              </div>
+              <div style="width: 100rem">
+                <img
+                  class="rounded"
+                  style="height: 25rem; width: 25rem"
+                  src="/static/whatcovid.jpeg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row-span-1">
+        <div class="grid grid-cols-12 p-2">
+          <div
+            class="col-span-12 flex rounded items-center justify-center p-4"
+            style="box-shadow: #00000033 0px 18px 50px -10px"
+          >
+            <div>
+              <div class="flex items-center flex-col buttononimage">
+                <img
+                  src="/static/geetvacccine.jpg"
+                  class="rounded"
+                  style="width: 35rem"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div style="height: 100%; margin-left: 8rem">
+              <p style="margin-top: 8rem" class="text-3xl">
+                "India is set to defeat Covid-19. <br />Every Indian is making
+                it possible."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row-span-1 h-full border border-gray-900 p-4">
+        <div>
+          <h3 class="text-2xl font-medium my-2">Frequently asked questions</h3>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What is COVID-19?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                COVID-19 is the disease caused by a new coronavirus called
+                SARS-CoV-2. WHO first learned of this new virus on 31 December
+                2019, following a report of a cluster of cases of ‘viral
+                pneumonia’ in Wuhan, People’s Republic of China.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                What happens to people who get COVID-19?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Among those who develop symptoms, most (about 80%) recover from
+                the disease without needing hospital treatment. About 15% become
+                seriously ill and require oxygen and 5% become critically ill
+                and need intensive care. Complications leading to death may
+                include respiratory failure, acute respiratory distress syndrome
+                (ARDS), sepsis and septic shock, thromboembolism, and/or
+                multiorgan failure, including injury of the heart, liver or
+                kidneys. In rare situations, children can develop a severe
+                inflammatory syndrome a few weeks after infection.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Who is most at risk of severe illness from COVID-19?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                People aged 60 years and over, and those with underlying medical
+                problems like high blood pressure, heart and lung problems,
+                diabetes, obesity or cancer, are at higher risk of developing
+                serious illness. However, anyone can get sick with COVID-19 and
+                become seriously ill or die at any age.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Are there long-term effects of COVID-19?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Some people who have had COVID-19, whether they have needed
+                hospitalization or not, continue to experience symptoms,
+                including fatigue, respiratory and neurological symptoms. WHO is
+                working with our Global Technical Network for Clinical
+                Management of COVID-19, researchers and patient groups around
+                the world to design and carry out studies of patients beyond the
+                initial acute course of illness to understand the proportion of
+                patients who have long term effects, how long they persist, and
+                why they occur. These studies will be used to develop further
+                guidance for patient care.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                What test should I get to see if I have COVID-19?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                In most situations, a molecular test is used to detect
+                SARS-CoV-2 and confirm infection. Polymerase chain reaction
+                (PCR) is the most commonly used molecular test. Samples are
+                collected from the nose and/or throat with a swab. Molecular
+                tests detect virus in the sample by amplifying viral genetic
+                material to detectable levels. For this reason, a molecular test
+                is used to confirm an active infection, usually within a few
+                days of exposure and around the time that symptoms may begin.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix"
+              >
+                What about rapid tests?
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSix"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Rapid antigen tests (sometimes known as a rapid diagnostic test
+                – RDT) detect viral proteins (known as antigens). Samples are
+                collected from the nose and/or throat with a swab. These tests
+                are cheaper than PCR and will offer results more quickly,
+                although they are generally less accurate. These tests perform
+                best when there is more virus circulating in the community and
+                when sampled from an individual during the time they are most
+                infectious.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven"
+                aria-expanded="false"
+                aria-controls="collapseSeven"
+              >
+                I want to find out if I had COVID-19 in the past, what test
+                could I take?
+              </button>
+            </h2>
+            <div
+              id="collapseSeven"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSeven"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Antibody tests can tell us whether someone has had an infection
+                in the past, even if they have not had symptoms. Also known as
+                serological tests and usually done on a blood sample, these
+                tests detect antibodies produced in response to an infection. In
+                most people, antibodies start to develop after days to weeks and
+                can indicate if a person has had past infection. Antibody tests
+                cannot be used to diagnose COVID-19 in the early stages of
+                infection or disease but can indicate whether or not someone has
+                had the disease in the past.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="foot">Made with <span>❤</span></div>
+    </footer>
+  </body>
+</html>
